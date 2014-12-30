@@ -38,18 +38,6 @@ function hasScrolled() {
 }
 
 //Slider
-
-jQuery(document).ready(function($) {
-	$('#team-slider').bjqs({
-		'animtype' : 'slide',
-		'height' : 320,
-		'width' : '620',
-		'showmarkers' : false,
-		'responsive' : true,
-		'randomstart' : true
-	});
-});
-
 $('#myCarousel').carousel({
 	interval: 4000
 }); 

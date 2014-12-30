@@ -3,6 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Wendy+One);
 @import url(http://fonts.googleapis.com/css?family=Niconne);
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Courgette);
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /* line 9, /home/joridos/Documentos/github/peneira-template/src/sass/bootstrap/normalize */
 html {
@@ -6277,26 +6278,31 @@ p.bjqs-caption {
   position: absolute;
   bottom: 0; }
 
-/* line 10, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+/* line 12, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+.comment {
+  font-family: 'Courgette', cursive;
+  font-size: 100px; }
+
+/* line 17, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
 .navbar-default {
   margin-bottom: 0; }
 
-/* line 14, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+/* line 21, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
 .brand, .brand-responsive {
   padding: 15px;
   font-size: 18px;
   line-height: 20px;
   height: 50px; }
 
-/* line 21, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+/* line 28, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
 .brand-responsive {
   display: inline-block; }
 
-/* line 25, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+/* line 32, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
 .brand {
   display: none; }
 
-/* line 29, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+/* line 36, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
 .home-section {
   text-align: center;
   background-image: url('../images/bg3.jpg');
@@ -6306,25 +6312,91 @@ p.bjqs-caption {
   background-attachment: fixed;
   padding-bottom: 15px; }
 
+/* line 46, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+.team-section {
+  padding: 100px;
+  width: 100%; }
+
+/* line 51, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+.team-title {
+  margin-bottom: 20px; }
+
+/* line 55, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+.comment-section {
+  padding: 100px;
+  width: 100%; }
+
+/* line 60, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+.footer {
+  padding: 50px; }
+
+/* line 64, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/* line 71, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em; }
+
+/* line 79, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+blockquote p {
+  display: inline; }
+
+/* line 84, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+.item img, .item a {
+  border-radius: 50%; }
+
+/* line 89, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+.item img {
+  width: 200px;
+  height: 200px; }
+
+/* line 94, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+.carousel-inner {
+  padding-left: 15%;
+  padding-right: 15%; }
+
+/* line 99, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+.carousel-control.left, .carousel-control.right {
+  background-image: none !important;
+  opacity: 1; }
+
+/* line 104, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+.carousel-control.left {
+  top: 40%; }
+
+/* line 108, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+.carousel-control.right {
+  top: 40%; }
+
 @media (min-width: 768px) {
-  /* line 40, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+  /* line 113, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
   .navbar-default {
     padding: 50px; }
 
-  /* line 43, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+  /* line 116, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
   .btn-access {
     font-size: 20px; }
 
-  /* line 46, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+  /* line 119, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
   .brand {
     font-size: 60px;
     display: inline-block; }
 
-  /* line 50, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+  /* line 123, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
   .brand-responsive {
     display: none; }
 
-  /* line 54, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+  /* line 127, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
   .navbar .nav > li > .dropdown-menu::before {
     position: absolute;
     top: -7px;
@@ -6336,7 +6408,7 @@ p.bjqs-caption {
     border-bottom-color: rgba(0, 0, 0, 0.2);
     content: ''; }
 
-  /* line 66, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+  /* line 139, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
   .navbar .nav > li > .dropdown-menu::after {
     position: absolute;
     top: -6px;
@@ -6347,57 +6419,15 @@ p.bjqs-caption {
     border-left: 6px solid transparent;
     content: ''; }
 
-  /* line 77, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+  /* line 150, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
   .navbar-nav > li > .dropdown-menu {
     margin-top: 10px; }
 
-  /* line 81, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+  /* line 154, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
   .home-section {
     padding: 250px; }
 
-  /* line 85, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
-  .team-section {
-    padding: 250px;
-    height: 200px; }
+  /* line 157, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
+  .comment-section {
+    padding: 200px; }
  }
-
-/* line 91, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
-.item img {
-  width: 100%; }
-
-/* line 94, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
-.carousel-control.left, .carousel-control.right {
-  background-image: none !important;
-  opacity: 1; }
-
-/* line 98, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
-.carousel-control.left {
-  top: 40%; }
-
-/* line 101, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
-.carousel-control.right {
-  top: 40%; }
-
-/* line 104, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
-.carousel-caption {
-  top: 15%;
-  text-align: left;
-  height: auto; }
-
-/* line 109, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
-.carousel-caption h2 {
-  line-height: 160%; }
-
-/* line 112, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
-.carousel-caption h2 span {
-  background: #428BCA;
-  padding: 10px 20px;
-  color: #fff;
-  border-left: 3px solid #fff; }
-
-/* line 118, /home/joridos/Documentos/github/peneira-template/src/sass/main.scss */
-p.caption {
-  background: #fff;
-  padding: 6px;
-  text-shadow: none;
-  color: #428BCA; }

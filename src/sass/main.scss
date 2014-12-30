@@ -7,6 +7,13 @@
 @import url(http://fonts.googleapis.com/css?family=Niconne);
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+
+.comment {
+	font-family: 'Courgette', cursive;
+	font-size: 100px;
+}
+
 .navbar-default {
 	margin-bottom: 0;
 }
@@ -34,6 +41,72 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	padding-bottom: 15px;
+}
+
+.team-section {
+	padding: 100px;
+	width: 100%;
+}
+
+.team-title {
+	margin-bottom: 20px;
+}
+
+.comment-section {
+	padding: 100px;
+	width: 100%;
+}
+
+.footer {
+	padding: 50px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+.item img,
+.item a {
+	border-radius: 50%;
+//	width:100%;
+}
+
+.item img {
+	width: 200px;
+	height: 200px;
+}
+
+.carousel-inner {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image:none !important;
+	opacity:1;
+}
+
+.carousel-control.left {
+	top:40%
+}
+
+.carousel-control.right {
+	top:40%
 }
 
 @media (min-width: 768px) {
@@ -81,43 +154,7 @@
 	.home-section {
 		padding: 250px;
 	}
-
-	.team-section {
-		padding: 250px;
-		height: 200px;
+	.comment-section {
+		padding: 200px;
 	}
-}
-
-.item img {
-	width:100%;
-}
-.carousel-control.left, .carousel-control.right {
-	background-image:none !important;
-	opacity:1;
-}
-.carousel-control.left {
-	top:40%
-}
-.carousel-control.right {
-	top:40%
-}
-.carousel-caption {
-	top:15%;
-	text-align:left;
-	height:auto;
-}
-.carousel-caption h2 {
-	line-height:160%
-}
-.carousel-caption h2 span {
-	background:#428BCA;
-	padding:10px 20px;
-	color:#fff;
-	border-left:3px solid #fff;
-}
-p.caption {
-	background:#fff;
-	padding:6px;
-	text-shadow:none;
-	color:#428BCA;
 }
